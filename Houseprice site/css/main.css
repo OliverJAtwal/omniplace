@@ -1,0 +1,40 @@
+.maplocation{
+	position:absolute;
+	top:150px;
+	left:270px;
+	
+	}
+.peoplelocation
+			{
+			position:absolute;
+			left:0px;
+			top:150px;
+			width:270px;
+		}
+.title{
+	position:absolute;
+	top:50px;
+	left:600px;
+	}
+.details{
+	position:absolute;
+	left:270px;
+	top:650px;
+}
+
+.details > * {
+	margin-right: 4em;
+	display:inline-block;
+}
+.logo{
+	background-image: url("downloads/omniplace.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	width: 270;
+	height: 105;
+	float: left;
+}
+.color{
+	background-color:#000000;
+	color:#b5b5b5
+}
