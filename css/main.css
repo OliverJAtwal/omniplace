@@ -36,23 +36,26 @@
 	float: left;
 }
 .backcolor{
-	background-color:#161616;
-	color:#c0c0c0;
+	background-color:#009999;
+	color:#FFFFFF;
 }
 .textcolor{
-	color:#c0c0c0;
+	color:#FFFFFF;
 }
 .twobut1{
 	position:absolute;
 	right:40%;
-	height:100%;
 	width:40%;
+	background-color:#006363;
+	padding-bottom: 1em;
 }
 .twobut2{
 	position:absolute;
 	right:0px;
-	height:100%;
 	width:40%;
+	background-color:#006363;
+	border-left:2px solid #FFFFFF;
+	padding-bottom: 1em;
 }
 #homepeople{
 	position:absolute;
@@ -63,21 +66,26 @@
 .links > a{
 	display:inline-block;
 	margin:60px 30px;
-	width:30%;
-	background-color:#000000;
+	width:150px;
+	background-color:#009999;
+	color:#FFFFFF;
 }
 .links{
 	text-align:center;
 }
 .links > a > img{
-	width:100%;
-	margin-bottom:8px;
-	height:144px;
+	width:150px;
+	height:150px;
 }
 .links > a > p{
-	height:4em;
+	height:5em;
+	padding:0 1em;
 }
-
+.slogan{
+	height:104px;
+	margin:0px;
+	padding-left: 270px;
+}
 /* dumb */
 
 
