@@ -41,8 +41,45 @@
 .textcolor{
 	color:#c0c0c0;
 }
-.twobut{
-	float:left;
+.twobut1{
+	position:absolute;
+	right:40%;
 	height:100%;
+	width:40%;
 	background-color:green;
 }
+.twobut2{
+	position:absolute;
+	right:0px;
+	height:100%;
+	width:40%;
+	background-color:red;
+}
+#homepeople{
+	position:absolute;
+			left:0px;
+			top:150px;
+	width:20%;
+}
+.links > a{
+	display:inline-block;
+	margin:60px 30px;
+	max-width:30%;
+	background-color:#000000;
+}
+.links{
+	text-align:center;
+}
+.links > a > img{
+	width:100%;
+	margin-bottom:0.5em;
+}
+.links > a > p{
+	height:4em;
+}
+
+
+
+
+
+
