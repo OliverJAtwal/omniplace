@@ -72,6 +72,7 @@
 }
 .links{
 	text-align:center;
+	white-space:nowrap;
 }
 .links > a > img{
 	width:150px;
@@ -80,6 +81,7 @@
 .links > a > p{
 	height:5em;
 	padding:0 1em;
+	white-space:normal;
 }
 .slogan{
 	height:104px;
