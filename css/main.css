@@ -1,4 +1,4 @@
-﻿.maplocation{
+.maplocation{
 	position:absolute;
 	top:150px;
 	left:270px;
@@ -47,15 +47,15 @@
 	right:40%;
 	width:40%;
 	background-color:#006363;
-	padding-bottom: 1.25em;
+	padding-bottom: 1em;
 }
 .twobut2{
 	position:absolute;
-	right:40px;
+	right:0px;
 	width:40%;
 	background-color:#006363;
 	border-left:2px solid #FFFFFF;
-	padding-bottom: 0em;
+	padding-bottom: 1em;
 }
 #homepeople{
 	position:absolute;
@@ -65,15 +65,14 @@
 }
 .links > a{
 	display:inline-block;
-	margin:60px 45px;
+	margin:60px 30px;
 	width:150px;
 	background-color:#009999;
 	color:#FFFFFF;
 }
 .links{
-   	text-align:center;
+	text-align:center;
 	white-space:nowrap;
-	
 }
 .links > a > img{
 	width:150px;
@@ -89,7 +88,7 @@
 	margin:0px;
 	padding-left: 270px;
 }
-/* wut? */
+/* dumb */
 
 
 
