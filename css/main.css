@@ -14,7 +14,7 @@
 .title{
 	position:absolute;
 	top:50px;
-	left:300px;
+	left:600px;
 	}
 .details{
 	position:absolute;
@@ -41,14 +41,13 @@
 }
 .textcolor{
 	color:#FFFFFF;
-	font-family:"Calibri Light";
 }
 .twobut1{
 	position:absolute;
 	right:40%;
 	width:40%;
 	background-color:#006363;
-	padding-bottom: 2.1em;
+	padding-bottom: 1em;
 }
 .twobut2{
 	position:absolute;
@@ -90,3 +89,9 @@
 	padding-left: 270px;
 }
 /* dumb */
+
+
+
+
+
+
