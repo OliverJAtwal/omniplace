@@ -27,7 +27,7 @@
 	display:inline-block;
 }
 .logo{
-	background-image: url("../resources/finallogo.png");
+	background-image: url("../resources/logo.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 	width: 250px;
