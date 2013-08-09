@@ -27,7 +27,7 @@
 	display:inline-block;
 }
 .logo{
-	background-image: url("../resources/newlogo.png");
+	background-image: url("../resources/finallogo.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 	width: 250px;
@@ -41,7 +41,9 @@
 }
 .textcolor{
 	color:#FFFFFF;
+	font-family:"Comic Sans MS"
 }
+
 .twobut1{
 	position:absolute;
 	right:40%;
