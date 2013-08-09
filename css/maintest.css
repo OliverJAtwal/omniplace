@@ -14,7 +14,7 @@
 .title{
 	position:absolute;
 	top:50px;
-	left:300px;
+	left:600px;
 	}
 .details{
 	position:absolute;
@@ -45,17 +45,16 @@
 }
 .twobut1{
 	position:absolute;
-	right:40%;
+	right:50%;
 	width:40%;
 	background-color:#006363;
-	padding-bottom: 2.1em;
+	padding-bottom: 1em;
 }
 .twobut2{
 	position:absolute;
-	right:0px;
+	right:10%;
 	width:40%;
 	background-color:#006363;
-	border-left:2px solid #FFFFFF;
 	padding-bottom: 1em;
 }
 #homepeople{
@@ -90,3 +89,9 @@
 	padding-left: 270px;
 }
 /* dumb */
+
+
+
+
+
+
