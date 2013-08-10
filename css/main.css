@@ -34,6 +34,8 @@
 	height: 125px;
 	background-size:100% 100%;
 	float: left;
+	position:absolute;
+	top:0px;
 }
 .backcolor{
 	background-color:#009999;
