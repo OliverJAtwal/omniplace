@@ -64,10 +64,11 @@ background-position:center;
     <script>
       var seconds = 5;
       setInterval(
-        function(){
+        function countdown(){
           document.getElementById('seconds').innerHTML = --seconds;
         }, 1000
       );
+       window.onload = countdown;
       </script>
 
 <br>
