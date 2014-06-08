@@ -4,15 +4,6 @@
 	<meta charset="utf-8">
 
 	<style>
- 	body {background-image:url("images/background.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:center top;
-	background-size:   cover;                      /* <------ */
-    background-repeat: no-repeat;
-    overflow: auto;
-	}
-	
 	.classname {
 	-moz-box-shadow:inset 0px 0px 50px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 0px 50px 0px #ffffff;
@@ -47,6 +38,19 @@
 	}.classname:active {
 	position:relative;
 	top:1px;
+	
+	.image_block    {
+    width: 175px;
+    height: 175px;
+    position: relative;
+	}
+
+	.image_block a  {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+	}
 
 	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -55,25 +59,12 @@
 </head>
 
 <body bgcolor="#FFFFFF">
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<a href="#awesome" class="classname">Awesome</a><br>
-	<br><a href="#wambo" class="classname">Wambo</a><br>
-	<br><a href="#massive" class="classname">Massive</a><br>
-	
-	<br><br>
-	
-	<p style="text-align:right; font-size:250%">The Most Epicist <br>Car Ever</p>
-	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<div id="awesome"></div>
+	<div id="awesome" /div>
 		<div style="position: relative; left: 0; top: 0;">
-  			<img src="images/White.jpg" height"100%" width="100%" style="position: relative; top: 0; left: 0;"/>
-  			<img src="images/showroom.jpg" style="position: absolute; top: 150px; left: 50px;"/>
-  			<iframe width="853" height="480" src="//www.youtube.com/embed/Jv0Gr5gz1Gw?rel=0" frameborder="0" allowfullscreen" style="position: relative; top: -625px; left: 250px;"></iframe>
+  			<img src="images/background.jpg" height"100%" width="100%" style="position: relative; top: 0; left: 0;"/>
+  			<a href="#awesome" class="classname" style="position: absolute; top: 3%; left: 1%;">Awesome</a><br 1%>
+			<br><a href="#wambo" class="classname" style="position: absolute; top: 7%; left: 1%;">Wambo</a><br>
+			<br><a href="#massive" class="classname" style="position: relative; top: -100%; left: 1%;">Massive</a><br>
 		</div>
 
 		<div id="wambo" data-menu-offset="-150"></div>
