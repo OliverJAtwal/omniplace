@@ -12,13 +12,44 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+	#bg {
+  		position: fixed; 
+  		top: -50%; 
+  		left: -50%; 
+  		width: 200%; 
+  		height: 200%;
+		}
+		
+	#bg img {
+  		position: absolute; 
+  		top: 0; 
+  		left: 0; 
+  		right: 0; 
+  		bottom: 0; 
+  		margin: auto; 
+  		min-width: 50%;
+  		min-height: 50%;
+		}
+	
+	
 	body
 	{
-		background: #FFFFFF url('../images/bg.jpg') no-repeat;
+		position: absolute; 
+  		top: 0; 
+  		left: 0; 
+  		right: 0; 
+  		bottom: 0; 
+  		margin: auto; 
+  		min-width: 50%;
+  		min-height: 50%;
+		
+		/*background: #FFFFFF url('../images/bg.jpg') no-repeat;
 		background-size: 100% auto;
-		/*background-size: cover;*/
 		background-position: center 0;
 		background-attachment: fixed;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-position:center;*/
 	}
 
 	body,input,textarea,select
