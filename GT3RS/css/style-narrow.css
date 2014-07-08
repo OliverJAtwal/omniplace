@@ -11,7 +11,7 @@
 	body
 	{
 		background: #FFFFFF /*url('../images/bg-alt.jpg') top center no-repeat*/;
-		background-size: 100% 100%;
+		background-size: auto auto;
 	}
 
 	body,input,textarea,select
