@@ -15,11 +15,10 @@
 	body
 	{
 		background: #FFFFFF url('../images/bg.jpg') no-repeat;
-		/*background-size: 100% auto;
+		background-size: 100% auto;
+		/*background-size: cover;*/
 		background-position: center 0;
-		background-attachment: fixed;*/
-		background-attachment:fixed;
-		background-position:center; 
+		background-attachment: fixed;
 	}
 
 	body,input,textarea,select
