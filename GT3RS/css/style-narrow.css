@@ -17,8 +17,6 @@
 	{
 		background: #FFFFFF /*url('../images/bg-alt.jpg') top center no-repeat*/;
 		background-size: auto 100%;
-		overflow:hidden;
-		-webkit-overflow-scrolling:touch;
 	}
 
 	body,input,textarea,select
