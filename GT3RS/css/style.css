@@ -14,8 +14,9 @@
 
 	body
 	{
-		background: #FFFFFF url('../images/bg.jpg');
-		background-size: cover;
+		background: #FFFFFF url('../images/bg.jpg') no-repeat;
+		background-size: 100% auto;
+		/*background-size: cover;*/
 		background-position: center 0;
 		background-attachment: fixed;
 	}
