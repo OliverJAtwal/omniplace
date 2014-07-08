@@ -8,6 +8,11 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+	img.spicmob {
+    	height: 70%;
+    	width: 70%;
+    }
+
 	body
 	{
 		background: #FFFFFF /*url('../images/bg-alt.jpg') top center no-repeat*/;
