@@ -463,7 +463,7 @@
 			position: relative;
 			display: inline-block;
 			border: #000000;
-			background: #35b88f;
+			background: #67BCEA;
 			color: #fff;
 			text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 			cursor: pointer;
@@ -482,7 +482,7 @@
 
 			.button:hover
 			{
-				background: #45c89f;
+				background: #93CCE8;
 			}
 		
 			.button.style2
@@ -701,12 +701,6 @@
 				{
 					text-align: center;
 				}
-
-/*********************************************************************************/
-/* Icons                                                                         */
-/* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
-/* Licensed under the SIL OFL 1.1 (font), MIT (CSS)                              */
-/*********************************************************************************/
 
 	.fa
 	{
