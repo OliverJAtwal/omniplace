@@ -1,7 +1,16 @@
 @charset 'UTF-8';
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
-
+	
+	#toplogo
+	{
+		position: absolute;
+		font-size:250%;
+	}
+	
+	.mfrow {
+    line-height: 0;
+	}
 
 	#bg {
   		position: fixed; 
@@ -36,7 +45,7 @@
 
 	body,input,textarea,select
 	{
-		font-family: 'Source Sans Pro', sans-serif;
+		/*font-family: 'Source Sans Pro', sans-serif;*/
 		font-size: 18pt;
 		line-height: 1.75em;
 		font-weight: 300;
@@ -49,7 +58,6 @@
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 400;
-		text-transform: uppercase;
 		line-height: 1.75em;
 	}
 	
@@ -438,7 +446,6 @@
 				
 				table.default th
 				{
-					text-align: left;
 					font-weight: 400;
 					padding: 0.75em 1.25em 0.75em 1.25em;
 				}
@@ -1215,7 +1222,7 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #35b88f url('images/banner.svg') bottom center no-repeat;
+		background: #67BCEA url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -1223,7 +1230,7 @@
 
 		#banner .button
 		{
-			color: #35b882;
+			color: #67BCEA;
 			text-shadow: 0 0 0.5px rgba(53,184,130,0.25);
 		}
 
@@ -1293,7 +1300,7 @@
 		
 			#footer a:hover
 			{
-				color: #35b88f;
+				color: #a2d6ed;
 				text-shadow: 0 0 0.5px rgba(69,200,159,0.25);
 				border-bottom-color: rgba(53,184,143,0.5);
 			}

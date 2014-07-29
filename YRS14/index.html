@@ -5,29 +5,37 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="WearThe" />
 		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/geolocation.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body>
+	<body style='font-family="sans-serif"'>
 	
 	<div id="bg">
   		<img src="images/bg.png" alt="">
 	</div>
-
+			
+		<!-- Logo -->
+			<section id="toplogo">
+				<br>
+				<center><img src="images/logo.png" alt="" width="25%" height="25%"></center>
+				<br>
+				<center><h1>
+					WearThe
+				</h1></center>
+			</section>
+			
 		<!-- Header -->
 			<section id="header">
-				<header>
-					<br>
-				</header>
 				<footer>
 					<a href="#banner" class="button style2 scrolly scrolly-centered">Begin</a>
 				</footer>
@@ -36,21 +44,18 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>Choose Your Gender:</h2>
-				</header>
-				<center><img><br><img></center>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<footer>
-					<a href="#first" class="button style2 scrolly">Next</a>
-				</footer>
+					<h2>Select Your Gender:</h2>
+				</header> 
+				<div class="mfrow">
+					<center>
+						<a href="#first"><img src="images/male.png" alt="male" width="25%" height="25%"></a>
+						<a href="#first"><img src="images/female.png" alt="female" width="25%" height="25%"></a>
+					</center>
+				</div>
 			</section>
-			
+		
 		<article class="container box style3">
-			<section>
+			<section id="first">
 					<form method="post" action="#">
 						<div class="row">
 							<div class="12u">
@@ -58,8 +63,9 @@
 								<select name="Location" id="first">
 									<option value="1">Reading</option>
 									<option value="2">London</option>
-									<option value="3">Oxford</option>
+									<option value="3">Plymouth</option>
 								</select>
+								<center><button type="button" class="button form" onclick="getLocation()">Locate Me</button></center>
 								<br>
 							</div>
 							
@@ -74,7 +80,7 @@
 						<div class="row">
 							<div class="12u">
 								<ul class="actions">
-									<li><a href="#" class="button form">Submit</a></li>
+									<li><a href="#" class="button form">What To Wear?</a></li>
 								</ul>
 							</div>
 						</div>
