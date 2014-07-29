@@ -47,20 +47,23 @@
 					<h2>Select Your Gender:</h2>
 				</header> 
 				<div class="mfrow">
+				<footer>
 					<center>
-						<a href="#first"><img src="images/male.png" alt="male" width="25%" height="25%"></a>
-						<a href="#first"><img src="images/female.png" alt="female" width="25%" height="25%"></a>
+						<a href="#first" class="scrolly scrolly-centered"><img src="images/male.png" alt="male" width="25%" height="25%"></a>
+						<a href="#first" class="scrolly scrolly-centered"><img src="images/female.png" alt="female" width="25%" height="25%"></a>
 					</center>
+				</footer>
 				</div>
 			</section>
 		
-		<article class="container box style3">
-			<section id="first">
-					<form method="post" action="#">
+		<!-- Form -->
+		<article class="container box style3" id="first">
+			<section>
+					<form method="post" action="results.html">
 						<div class="row">
 							<div class="12u">
 								<p>Location:</p>
-								<select name="Location" id="first">
+								<select name="Location" id="location">
 									<option value="1">Reading</option>
 									<option value="2">London</option>
 									<option value="3">Plymouth</option>
@@ -80,7 +83,7 @@
 						<div class="row">
 							<div class="12u">
 								<ul class="actions">
-									<li><a href="#" class="button form">What To Wear?</a></li>
+									<li><a href="results.html" class="button form">What To Wear?</a></li>
 								</ul>
 							</div>
 						</div>
