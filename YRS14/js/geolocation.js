@@ -37,14 +37,14 @@ function initialize() {
             //there are different types that might hold a city admin_area_lvl_1 usually does in come cases looking for sublocality type will be more appropriate
                 if (results[0].address_components[i].types[b] == "administrative_area_level_1") {
                     //this is the object you are looking for
-                    city= results[0].address_components[i];
+                    city=results[0].address_components[i];
                     break;
                 }
             }
         }
         //city data
+        alert(short_name + " " + long_name)
         alert(city.short_name + " " + city.long_name)
-        alert(results[0].formatted_address)
 
 
         } else {
