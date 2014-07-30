@@ -43,8 +43,8 @@ function initialize() {
             }
         }
         //city data
-        alert(short_name + " " + city)
-        alert(city.short_name + " " + city.long_name)
+        alert(short_name + " " + address_components)
+        //alert(city.short_name + " " + city.long_name)
 
 
         } else {
