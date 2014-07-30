@@ -44,6 +44,7 @@ function initialize() {
         }
         //city data
         alert(city.short_name + " " + city.long_name)
+        alert(results[0].formatted_address)
 
 
         } else {
