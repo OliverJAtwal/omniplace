@@ -1,4 +1,4 @@
-function initialize() {
+function vargeocode() {
 	var geocoder;
 
   	if (navigator.geolocation) {
