@@ -43,8 +43,7 @@ function initialize() {
             }
         }
         //city data
-        alert(short_name + " " + address_components)
-        //alert(city.short_name + " " + city.long_name)
+        alert(city.short_name + " " + city.long_name)
 
 
         } else {
@@ -55,3 +54,5 @@ function initialize() {
       }
     });
   }
+  
+document.getElementById("geolocal").innerHTML = results[0].formatted_address;
