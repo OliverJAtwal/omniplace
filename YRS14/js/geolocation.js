@@ -1,8 +1,8 @@
-//var geocoder;
+var geocoder;
 
-//  if (navigator.geolocation) {
-//    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
-//} 
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+} 
 
 //Get the latitude and the longitude;
 function successFunction(position) {
@@ -18,8 +18,8 @@ function errorFunction(){
 function initialize() {
 	var geocoder;
 
-  	if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+  		if (navigator.geolocation) {
+    		navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
 	} 
 	
     geocoder = new google.maps.Geocoder();
