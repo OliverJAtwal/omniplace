@@ -1,8 +1,9 @@
-var geocoder;
+//var geocoder;
 
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
-} 
+//  if (navigator.geolocation) {
+//    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+//} 
+
 //Get the latitude and the longitude;
 function successFunction(position) {
     var lat = position.coords.latitude;
@@ -14,12 +15,15 @@ function errorFunction(){
     alert("Geocoder failed");
 }
 
-  function initialize() {
+function initialize() {
+	var geocoder;
+
+  	if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+	} 
+	
     geocoder = new google.maps.Geocoder();
-
-
-
-  }
+	}
 
   function codeLatLng(lat, lng) {
 
