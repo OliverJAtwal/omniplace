@@ -29,7 +29,7 @@ function initialize() {
       console.log(results)
         if (results[1]) {
          //formatted address
-         alert(results[0].formatted_address)
+         //alert(results[0].formatted_address)
          document.getElementById("geolocal").innerHTML = results[0].formatted_address;
         //find country name
              for (var i=0; i<results[0].address_components.length; i++) {
@@ -44,7 +44,7 @@ function initialize() {
             }
         }
         //city data
-        alert(city.short_name + " " + city.long_name)
+        //alert(city.short_name + " " + city.long_name)
         document.getElementById("geolocal").innerHTML = results[0].formatted_address;
 
 
