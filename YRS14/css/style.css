@@ -2,6 +2,10 @@
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 	
+	.rplogo {
+	position: absolute;
+	}
+	
 	.pic1 {
     position: absolute;
     left: 25%;
@@ -1237,9 +1241,9 @@
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
 		background: #67BCEA url('images/banner.svg') bottom center no-repeat;
-		padding: 5em 0 5em 0;
+		padding: 1em 0 1em 0;
 		margin: 0;
-		background-size: 125% auto;
+		background-size: 130% auto;
 	}
 
 		#banner .button
