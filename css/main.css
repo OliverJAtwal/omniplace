@@ -1,0 +1,92 @@
+.maplocation{
+	position:absolute;
+	top:150px;
+	left:270px;
+	
+	}
+.peoplelocation
+			{
+			position:absolute;
+			left:0px;
+			top:150px;
+			width:20%;
+		}
+.title{
+	position:absolute;
+	top:50px;
+	left:300px;
+	}
+.details{
+	position:absolute;
+	left:270px;
+	top:650px;
+}
+
+.details > * {
+	margin-right: 4em;
+	display:inline-block;
+}
+.logo{
+	background-image: url("../resources/newlogo.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	width: 250px;
+	height: 125px;
+	background-size:100% 100%;
+	float: left;
+}
+.backcolor{
+	background-color:#009999;
+	color:#FFFFFF;
+}
+.textcolor{
+	color:#FFFFFF;
+	font-family:"Calibri Light";
+}
+.twobut1{
+	position:absolute;
+	right:40%;
+	width:40%;
+	background-color:#006363;
+	padding-bottom: 2.1em;
+}
+.twobut2{
+	position:absolute;
+	right:0px;
+	width:40%;
+	background-color:#006363;
+	border-left:2px solid #FFFFFF;
+	padding-bottom: 1em;
+}
+#homepeople{
+	position:absolute;
+			left:0px;
+			top:150px;
+	width:20%;
+}
+.links > a{
+	display:inline-block;
+	margin:60px 30px;
+	width:150px;
+	background-color:#009999;
+	color:#FFFFFF;
+}
+.links{
+	text-align:center;
+	white-space:nowrap;
+}
+.links > a > img{
+	width:150px;
+	height:150px;
+}
+.links > a > p{
+	height:5em;
+	padding:0 1em;
+	white-space:normal;
+}
+.slogan{
+	height:104px;
+	margin:0px;
+	padding-left: 270px;
+}
+/* dumb */
